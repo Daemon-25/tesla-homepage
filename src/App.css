@@ -1,3 +1,119 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+body{
+  text-align: center;
+  font-family: "Nunito Sans" !important;
+  font-weight: bold;
+  
+}
+
+/***********************************NAVBAR************************************************/
+.nav-logo{
+  width: 6rem;
+  height: 1rem;
+  transition: width 0.5s, height 0.5s ease-out;
+}
+
+.nav-brand{
+  cursor: default;
+}
+
+.navbar-toggler{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.navbar-icon{
+  height: 25px;
+}
+
+.navbar-brand:hover .nav-logo{
+  width: 9rem;
+  height: 1.5rem;
+}
+
+.dropdown-toggle{
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: "Nunito Sans" !important;
+  font-weight: bold;
+}
+
+.dropdown-text{
+  cursor: default;
+}
+
+.nav-item{
+  margin-left: 10px;
+}
+
+.button{
+  display: none;
+}
+
+.nav-item:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.list2{
+  display: none;
+  visibility: hidden;
+}
+
+.dropdown-menu{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media(max-width: 420px){
+  .nav-logo{
+    margin-left: 15px !important;
+  }
+}
+
+@media(max-width: 980px){
+  .list1{
+    display: none;
+    visibility: hidden;
+  }
+
+  .list2{
+    display: block;
+    visibility: visible;
+  }
+}
+
+.list2{
+  background-color: rgba(255, 255, 255, 0.7);
+  right: 0 !important;
+  min-height: 100% !important;
+  width: 200px;
+  text-align: left;
+  margin-right: 0 !important;
+  z-index: 2;
+  border-radius: 5px;
+}
+
+/****************************************HEADER********************************************************/
+.header-wrapper{
+  background: url(Components/model-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 713px;
+}
+
+.main-info{
+  display: flex;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left:0;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
