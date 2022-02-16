@@ -146,26 +146,28 @@ body{
   right: 45px;
   font-size: 60px;
   cursor: pointer;
+  color: #818181;
 }
 
 .overlay .closebtn:hover, .closebtn:focus{
-  color: aliceblue;
+  color: #f1f1f1;
 }
 
 /****************************************HEADER********************************************************/
-.header-wrapper{
-  background: url(Components/model-3.jpg);
+.each-slide > div {
+  display: flex;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
-  position: relative;
   height: 713px;
 }
 
 .main-info{
+  margin-top: 120px;
   display: flex;
   top: 0;
-  bottom: 0;
   right: 0;
   left:0;
   position: absolute;
@@ -195,4 +197,8 @@ body{
   .typed-text{
     font-size: 3rem;
   }
+}
+
+.typed-text{
+  color: rgb(255, 255, 255);
 }

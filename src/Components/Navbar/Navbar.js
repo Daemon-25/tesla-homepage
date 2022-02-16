@@ -65,7 +65,7 @@ export const Navbar = () => {
                         <div id="Menu" className="overlay" ref={overlay}>
                             <FontAwesomeIcon icon={faCircleXmark} className='closebtn' onClick={closeNav}/>
 
-                            <div class="overlay-content">
+                            <div className="overlay-content">
                                 <a href="#">Existing Inventory</a>
                                 <a href="#">Used Inventory</a>
                                 <a href="#">Trade In</a>
