@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
+:root{
+  height: 100% !important;
+  overflow-y: none;
+}
+
 body{
   text-align: center;
   font-family: "Nunito Sans" !important;
@@ -9,7 +14,7 @@ body{
 
 /***********************************NAVBAR************************************************/
 .nav-logo{
-  width: 6rem;
+  width: 8rem;
   height: 1rem;
   transition: width 0.5s, height 0.5s ease-out;
 }
@@ -28,7 +33,7 @@ body{
 }
 
 .navbar-brand:hover .nav-logo{
-  width: 9rem;
+  width: 10rem;
   height: 1.5rem;
 }
 
@@ -161,7 +166,8 @@ body{
   justify-content: center;
   background-size: cover;
   background-position: center;
-  height: 713px;
+  height: 100vh;
+  
 }
 
 .main-info{
@@ -201,4 +207,94 @@ body{
 
 .typed-text{
   color: rgb(255, 255, 255);
+}
+
+/****************************************SCROLLBAR****************************************************/
+.track-vertical {
+  top: 30%;
+  bottom: 30%;
+  left: 10px;
+  border-radius: 3px;
+  background: rgba(10, 10, 10, 0.111);
+}
+
+.track-vertical .thumb-vertical {
+  position: relative;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border-radius: inherit;
+  background-color: rgb(92, 92, 92);
+}
+
+.thumb-vertical:hover, .thumb-vertical:focus{
+  background-color: rgb(0, 0, 0);
+}
+
+
+.view {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: scroll;
+  margin-right: -15px;
+  margin-bottom: -17px !important;
+}
+
+/*******************************************FOOTER****************************************************/
+.footer-wrapper{
+  padding-top: 10vh;
+  background: url(Components/Connector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media(max-width: 420px){
+  .footer-wrapper{
+    background-size: cover;
+  }
+}
+
+.foot-text{
+  font-size: 3rem;
+  font-weight: bold;
+  
+}
+
+.acc-text{
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.897);
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.acc-text:hover, .acc-text:focus{
+  color: aliceblue;
+}
+
+.foot-row{
+  padding-top: 10vh;
+}
+
+.footer{
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.foot-link{
+  font-size: 0.85rem;
+  color: #818181;
+  text-decoration: none;
+}
+
+.foot-link:hover{
+  color: #818181;
 }

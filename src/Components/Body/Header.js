@@ -2,7 +2,7 @@ import React from 'react'
 import Typed from 'react-typed';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const slideImages = [
     'https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D',
@@ -27,8 +27,9 @@ export const Header = () => {
             </div>
 
             <div className="main-info">
-                <h1 className='main-text'>Our Special Products</h1>
-
+                <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' duration={2} delay={0.5}>
+                    <h1 className='main-text'>Our Special Products</h1>
+                </ScrollAnimation>
                 <Typed
                     className='typed-text'
                     strings={['Model S',
