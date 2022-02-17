@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tesla-homepage/static/css/main.8674aac9.css",
+    "main.js": "/tesla-homepage/static/js/main.f5b70698.js",
+    "static/js/787.670d197c.chunk.js": "/tesla-homepage/static/js/787.670d197c.chunk.js",
+    "static/media/model-y.jpg": "/tesla-homepage/static/media/model-y.7aa3f7639adab56a21e2.jpg",
+    "static/media/solar-roof.jpg": "/tesla-homepage/static/media/solar-roof.37ad335748410fe9ee42.jpg",
+    "static/media/model-3.png": "/tesla-homepage/static/media/model-3.15fed09edda37cd153da.png",
+    "static/media/solar-panel.jpg": "/tesla-homepage/static/media/solar-panel.9f85671adb355232749b.jpg",
+    "static/media/model-s.jpg": "/tesla-homepage/static/media/model-s.647727a163782e593702.jpg",
+    "static/media/model-x.jpg": "/tesla-homepage/static/media/model-x.dbfcce81c117304eaad8.jpg",
+    "static/media/Connector.png": "/tesla-homepage/static/media/Connector.b9433a9ec36e2e624f38.png",
+    "static/media/Tesla.png": "/tesla-homepage/static/media/Tesla.94d1cea3e4552b8f4257.png",
+    "index.html": "/tesla-homepage/index.html",
+    "main.8674aac9.css.map": "/tesla-homepage/static/css/main.8674aac9.css.map",
+    "main.f5b70698.js.map": "/tesla-homepage/static/js/main.f5b70698.js.map",
+    "787.670d197c.chunk.js.map": "/tesla-homepage/static/js/787.670d197c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8674aac9.css",
+    "static/js/main.f5b70698.js"
+  ]
+}
